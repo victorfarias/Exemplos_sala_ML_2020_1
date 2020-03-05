@@ -21,6 +21,6 @@ regressor = MeanRegressor()
 regressor.fit(X, y)
 
 # Fazer testes/predicoes usando predict()
-print(regressor.predict([4,5]))
+print(regressor.predict([4.,5.,6.]))
 
 # Medir erro
