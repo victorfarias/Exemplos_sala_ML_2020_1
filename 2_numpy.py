@@ -29,7 +29,7 @@ X_ = np.c_[ones, M]
 print(X_)
 
 # Carregar conjunto de dados
-data = np.loadtxt("./advertising.csv", skiprows=1, delimiter=",")
+data = np.loadtxt("./data/advertising.csv", skiprows=1, delimiter=",")
 X = data[:,1:4]
 y = data[:, 4]
 print(X)
